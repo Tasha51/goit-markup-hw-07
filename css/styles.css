@@ -203,8 +203,7 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
-.btn,
-.modal-send-btn {
+.btn{
   display: block;
   width: 200px;
   margin-left: auto;
@@ -226,16 +225,14 @@ ul {
 }
 
 .btn:hover,
-.btn:focus,
-.modal-send-btn:hover,
-.modal-send-btn:focus {
+.btn:focus {
   cursor: pointer;
   background-color: #188ce8;
 }
 
 /* Паттерн для скрытия заголовка */
 .features__title,
-.filter__title {
+.services__title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -541,7 +538,6 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 .footer-form__btn {
   margin-left: 12px;
 
@@ -549,30 +545,16 @@ ul {
   justify-content: center;
   align-items: center;
 
-  background-color: var(--accent-color);
-  width: 200px;
   padding: 10px 29px;
-  border: none;
-  border-radius: 4px;
+} 
 
-  font-family: var(--main-font-family);
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-.footer-form__btn:hover,
-.footer-form__btn:focus {
-  cursor: pointer;
-}
 .footer-form__icon {
   margin-left: 10px;
   fill: currentColor;
 }
 /* Портфолио */
 
-.filter__list {
+.filter {
   display: flex;
   justify-content: center;
   margin-left: auto;
